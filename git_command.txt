@@ -1,0 +1,29 @@
+git init : initialize a folder as git in local repo
+git add : adding file or folder in index to commit ,push/pull or other 
+git status: Status of files
+git remote add origin "https://github.com/shuntos/repo_name.git"
+git pull origin master: To pull from central repo
+git add -A: To add all the files together
+clear: clear cmd window
+git commit -a -m "message" :commit all the files together"-m is message"
+git log: history of operation
+git branch branch_name: creating branch
+git checkout branch_name: Switch to specified branch
+ls :list of file in directory
+git merge branch_name: branch_name will be merged with current branch
+cat file.txt: open text file
+git rebase master: rebase current branch to master branch
+
+ssh-keygen: Generate Public SSH key
+GOTO setting>SSH and GPG keys>New SSH key>provide name for SSH and enter Key 
+ssh -T git@github.com:For authentication SSH
+
+git push origin branch_name :Push all files in branch_name to central repo
+
+git push origin master:Push all files in master to central repo
+
+#To goto previous version
+git log: History of operation
+      and copy first 8 bit hexadecimal code 
+git checkout 8bit_hexadecimal filename.txt:Goto previous version of filename.txt
+cat filename.txt
