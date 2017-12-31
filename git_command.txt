@@ -27,3 +27,6 @@ git log: History of operation
       and copy first 8 bit hexadecimal code 
 git checkout 8bit_hexadecimal filename.txt:Goto previous version of filename.txt
 cat filename.txt
+
+ git config --global user.email "santoshadhikari514@gmail.com.com"
+git config --global user.name"shuntos"
