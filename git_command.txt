@@ -32,3 +32,6 @@ cat filename.txt
 git config --global user.name"shuntos"
 ![alt text](screenshots/filename.png "Description goes here"): To add images in README.md
 git push -f origin master :force update
+
+#error locked
+rm -f ./.git/index.lock
